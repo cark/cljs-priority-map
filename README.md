@@ -1,4 +1,7 @@
-# cljs-priority-map [![Build Status][1]][2]
+# cljs-priority-map 
+
+This is a fork of [tailrecursion/cljs-priority-map][5]
+because I need the fix referenced here : [cljs.reader/reader-error removed in cljs v1.9.854][6] right now !
 
 This is a ClojureScript port of Mark Engelberg's [clojure.data.priority-map][3]
 for Clojure.
@@ -14,12 +17,12 @@ produces the entries sorted by value.
 Artifacts are published on [Clojars][4].
 
 ```clojure
-[tailrecursion/cljs-priority-map "1.2.0"]
+[cark/cljs-priority-map "1.2.0"]
 ```
 
 ```xml
 <dependency>
-  <groupId>tailrecursion</groupId>
+  <groupId>cark</groupId>
   <artifactId>cljs-priority-map</artifactId>
   <version>1.1.0</version>
 </dependency>
@@ -159,3 +162,5 @@ Distributed under the Eclipse Public License, the same as Clojure.
 [2]: https://travis-ci.org/tailrecursion/cljs-priority-map
 [3]: https://github.com/clojure/data.priority-map
 [4]: https://clojars.org/tailrecursion/cljs-priority-map
+[5]: https://github.com/tailrecursion/cljs-priority-map
+[6]: https://github.com/tailrecursion/cljs-priority-map/issues/10
