@@ -81,7 +81,7 @@
 
 ;;; printing, reader
 
-(assert (= p (read-string (pr-str p))))
+;(assert (= p (read-string (pr-str p))))
 
 ;;; perf
 
